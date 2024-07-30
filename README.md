@@ -16,6 +16,9 @@ To make sure that program isn't affected by python version, it is highly recomme
 we have build a environment that all Requirement for this package is build, 
 See the [ubuntu-docker](https://github.com/errrr0501/ubuntu_docker) on information how to set this up.
 
+opencv-python==4.5.4.60
+opencv-contrib-python==4.5.4.60
+
 ## Building
 
 ```bash
