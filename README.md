@@ -85,7 +85,7 @@ we use whole method with FlexBE and ROS2, open camera with ROS2 first:
 ```bash
 cd ~/<your ros2_realsense workspace>
 source install/setup.bash
-ros2 launch realsense2_camera rs_launch.py rgb_camera.profile:=1920x1080x30 
+ros2 launch realsense2_camera rs_launch.py camera_namespace:="/" rgb_camera.color_profile:=1920x1080x30
 ```
 WARN:Here use 1080p as camera resolution, because we use 1080p as camera calibration resolution,
 if you want to change resolution, need to do camera calibration again with the resolution you change.
