@@ -94,6 +94,10 @@ if you want to change resolution, need to do camera calibration again with the r
 ```bash
 ros2 launch flexbe_app flexbe_full.launch
 ```
+- **Note**: If flexbe does not display on the monitor, run the following command to install nwjs: 
+```
+ros2 run flexbe_app nwjs_install
+```
 - Open charuco detector
 ```bash
 ros2 launch charuco_detector hand_eye_calibration.launch.py
